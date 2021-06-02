@@ -543,7 +543,6 @@ void draw(){
      if (dino.posXD >=1600){
      pantalla = WIN;
      
-     tiempoJuego = 100000;
      
    int mes = month();
    int dia = day();
@@ -712,7 +711,6 @@ if (pantalla==GAME1 || pantalla==GAME2 || pantalla==GAME3 || pantalla==GAME4){
    image (fondoganar,0,0);
    
    //Puntaje
-   tiempoJuego = 100000;
    fill(255);
    text(str(tiempoJuego),width/2,90);  
    
